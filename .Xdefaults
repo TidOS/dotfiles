@@ -1,0 +1,55 @@
+!Tranzparenz
+!URxvt.inheritPixmap: true
+URxvt.shading: 0
+URxvt.fading: 0
+
+
+ 
+! Urxvt
+URxvt*foreground: #DDCCBB
+URxvt.termName: rxvt-256color
+URxvt.visualBell: true
+URxvt.mapAlert: true
+URxvt.saveLines: 5000
+URxvt.scrollBar: false
+URxvt.crsorBlink: true
+URxvt.cursorUnderline: true
+!URxvt.font: -*-proggytiny-*-*-*-*-*-*-*-*-*-*-*-*
+!URxvt.boldFont: -*-proggytiny-*-*-*-*-*-*-*-*-*-*-*-*
+URxvt.font:  xft:montecarlo:size=8
+URxvt.boldFont: xft:montecarlo:size=8
+URxvt.title: Urxvt
+URxvt.urgentOnBell: true
+URxvt.colorUL: #00BBFF
+URxvt.geometry: 80x30
+URxvt*borderless: true
+URxvt*scrollBar: false
+
+! XTerm
+XTerm*font: -*-profont-*-*-*-*-11-*-*-*-*-*-*-*
+XTerm*cursorUnderLine: true
+XTerm*cursorBlink: true
+XTerm*colorULMode: true
+XTerm*colorUL:#00bbff
+XTerm*cursorColor: #00bbff
+
+URxvt.perl-ext-common : default,matcher
+URxvt.urlLauncher     : firefox
+URxvt.matcher.button  : 1
+
+
+
+!Xft settings
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.dpi: 96
+Xft.rgba: rgb
+
+
+!#include "/home/jordan/.colors/lazy"
+!#include "/home/jordan/.colors/lazy2"
+!#include "/home/jordan/.colors/jelly"
+#include "/home/gentoo/.colors/hund"
